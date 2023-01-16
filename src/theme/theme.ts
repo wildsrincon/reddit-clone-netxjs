@@ -24,13 +24,13 @@ const theme = createTheme({
       sm: 600,
       md: 900,
       lg: 1200,
-      xl: 1536,
+      xl: 1536
     },
   },
   palette: {
     background: {
       paper: "#1b2330",
-      default: "#0d1218",
+      default: "#fff",
     },
     primary: {
       main: "rgba(2, 106, 167, 1)",
@@ -72,7 +72,6 @@ const theme = createTheme({
       fontWeight: 300,
       lineHeight: 1.167,
       letterSpacing: "-0.01562em",
-      color: "#fff",
     },
     h2: {
       fontFamily: quicksand.style.fontFamily,
@@ -80,11 +79,9 @@ const theme = createTheme({
       fontWeight: 300,
       lineHeight: 1.2,
       letterSpacing: "-0.00833em",
-      color: "#fff",
     },
     h3: {
       fontFamily: quicksand.style.fontFamily,
-      color: "#fff",
       fontSize: "3rem",
       fontWeight: 500,
       lineHeight: 1.167,
@@ -92,7 +89,6 @@ const theme = createTheme({
     },
     h4: {
       fontFamily: quicksand.style.fontFamily,
-      color: "#fff",
       fontSize: "2.125rem",
       fontWeight: 500,
       lineHeight: 1.235,
@@ -100,7 +96,6 @@ const theme = createTheme({
     },
     h5: {
       fontFamily: quicksand.style.fontFamily,
-      color: "#fff",
       fontSize: "1.5rem",
       fontWeight: 500,
       lineHeight: 1.334,
@@ -108,7 +103,6 @@ const theme = createTheme({
     },
     h6: {
       fontFamily: quicksand.style.fontFamily,
-      color: "#fff",
       fontSize: "1.25rem",
       fontWeight: 500,
       lineHeight: 1.6,
