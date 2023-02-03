@@ -24,10 +24,14 @@ const theme = createTheme({
       sm: 600,
       md: 900,
       lg: 1200,
-      xl: 1536
+      xl: 1536,
     },
   },
   palette: {
+    common: {
+      white: "#fff",
+      black: "#000",
+    },
     background: {
       paper: "#1b2330",
       default: "#fff",

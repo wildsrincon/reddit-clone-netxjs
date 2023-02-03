@@ -1,8 +1,10 @@
+import { useEffect, useState } from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { Typography } from "@mui/material";
+import { HomePage } from "@ui/components/templates/Home";
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -12,8 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Typography variant="h1">Hello World</Typography>
-        <Typography variant="subtitle1">This is a paragrahp</Typography>
+        <HomePage />
       </main>
     </>
   );

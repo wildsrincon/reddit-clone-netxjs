@@ -1,0 +1,1 @@
+export { VotePost } from './VotePost'

@@ -1,0 +1,1 @@
+export { ArrowDownVote } from "./ArrowDownVote";
