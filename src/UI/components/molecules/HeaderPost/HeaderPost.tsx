@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { Typography } from '@mui/material';
 import { Post } from "src/API";
+import formatDatePosted from 'src/lib/formatDatePosted';
 
 type THeaderPost = {
   post: Post;
@@ -18,7 +19,7 @@ export const HeaderPost: FC<THeaderPost> = ({post}: Props) => {
         color="black"
         sx={{ marginLeft: 2, marginTop: 1 }}
       >
-        Post By <b>{post?.owner}</b> at <b>{post?.createdAt}</b>
+        Post By <b>{post?.owner}</b>{' '}{formatDatePosted(post?.createdAt)} hours ago
       </Typography>
     </>
   );

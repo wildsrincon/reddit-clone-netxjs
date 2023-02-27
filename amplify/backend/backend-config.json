@@ -44,7 +44,7 @@
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
               "apiKeyExpirationDays": 364,
-              "apiKeyExpirationDate": "2023-12-25T18:56:30.958Z",
+              "apiKeyExpirationDate": "2024-02-25T22:51:07.927Z",
               "description": "redditclone API"
             }
           },
